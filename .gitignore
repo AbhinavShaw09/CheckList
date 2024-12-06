@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node
+node_modules          # npm
+yarn-error.log
+yarn-debug.log
+pnpm-store
+.pnpm                 # pnpm            # Yarn Integrity file
+.yarn
+.npm
+.lerna            
+
+# Yarn Integrity file
+.yarn-integrity                     
+
+# pnpm
+.pnpm-store          
+
+# Other cache based directories
+.nyc_output
+.cypress              
+
+# Misc
+.DS_Store           
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local   
+
+# Next.js
+.next              
+
+# Nuxt.js
+.nuxt             
+
+# Gatsby
+.cache         
+
+# Expo
+.expo   
